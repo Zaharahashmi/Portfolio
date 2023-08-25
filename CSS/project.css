@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgb(213, 166, 252), rgb(133, 251, 255));
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project {
+    display: flex;
+    margin: 20px;
+    border: 1px solid #ccc;
+    background-image: linear-gradient(rgb(133, 251, 255), rgb(173, 80, 250));
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .description {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: 25px;
+    color: #666;
+  }
+  
